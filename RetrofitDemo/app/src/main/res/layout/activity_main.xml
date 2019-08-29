@@ -22,12 +22,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="post" />
-
-        <Button
-            android:id="@+id/file"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="file" />
     </LinearLayout>
 
     <TextView
