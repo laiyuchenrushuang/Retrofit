@@ -93,6 +93,10 @@
           @GET("News")
           Call<NewsBean> getItem(@QueryMap Map<String, String> map);
           
+     6.@Url   动态添加url
+          @GET
+          Call <List<Object>> getData(@Url String path);
+     
      @Path：所有在网址中的参数（URL的问号前面），如：http://102.10.10.132/api/Accounts/{accountId}
      @Query：URL问号后面的参数，如：http://102.10.10.132/api/Comments?access_token={access_token}
      @QueryMap：相当于多个@Query
