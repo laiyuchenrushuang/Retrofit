@@ -93,7 +93,7 @@
           @GET("News")
           Call<NewsBean> getItem(@QueryMap Map<String, String> map);
           
-     6.@Url   动态添加url
+    6.@Url   动态添加url
           @GET
           Call <List<Object>> getData(@Url String path);
      
